@@ -11,7 +11,7 @@ let rectangle = {
 };
 
 // Factory function 
-// function createRectangle(len, bre) {
+ function createRectangle(len, bre) {
 
 const rectangle = {
     length: len,
@@ -24,7 +24,8 @@ const rectangle = {
 return rectangle;
 // }
 
-let rectangleObj1 = createRectangle(5, 4); // Creating rectangle objects
+// Creating rectangle objects
+let rectangleObj1 = createRectangle(5, 4); 
 let rectangle2 = createRectangle(2, 3);
 let rectangle3 = createRectangle(7, 9);
 
@@ -137,6 +138,7 @@ for (let key in rectangle) {
 }
 
 // For-of loop
+// imp -> for-of loop is use for iterables
 for (let key of Object.entries(rectangle)) {
     console.log(key);
 }
@@ -148,7 +150,7 @@ if ('length' in rectangle) {
 }
 
 
-// Object - clone #1
+// Object - clone #1 Methos
 let src = {
     a: 10,
     b: 20,
@@ -166,7 +168,7 @@ console.log(dest);
 src.a++;
 console.log(dest);
 
-// Object Cloning #2
+// Object Cloning #2 Methods
 let src = {
     a: 10,
     b: 20,
@@ -192,9 +194,9 @@ let src = {
 
 let dest = { ...src };
 
-// console.log(dest);
+console.log(dest);
 
-// src.a++;
+src.a++;
 
-// console.log(dest); 
+console.log(dest); 
 
