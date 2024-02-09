@@ -1,162 +1,162 @@
-// console.log('Hello Jee');
+ console.log('Hello Jee');
 
-// let lastName = 'Babbar' ;
+ let lastName = 'Babbar' ;
 
-// let firstName = new String('Love');
+ let firstName = new String('Love');
 
-// let message = 
-// `Hello ${lastName},
+let message = 
+`Hello ${lastName},
 
-// Thanks for the Opportunity
+ Thanks for the Opportunity
 
-// Regards,
-// Babbar`;
+Regards,
+Babbar`;
 
-// console.log(message);
+console.log(message);
 
-// let words = message.split(' ');
+let words = message.split(' ');
 
-// console.log(words);
+console.log(words);
 
-// let date = new Date();
-
-
-// let date2 = new Date('June 20 1998 07:15');
-
-// let date3 = new Date(1998, 11, 20, 7);
+let date = new Date();
 
 
-// date3.setFullYear(1947);
+let date2 = new Date('June 20 1998 07:15');
 
-// console.log(date3);
-
-// let numbers = [1,4,5,7];
-
-// console.log(numbers);
-
-// //end -> push
-// //beginning -> unshift
-
-// //middle -> splice
-
-// //Searching
-// console.log(numbers);
-
-// console.log(numbers.indexOf(9));
-
-// //we want to check if a number exist in an array
-// if(numbers.indexOf(4) != -1) 
-//     console.log("present");
-
-// console.log(numbers.includes(7));
-
-// console.log(numbers.indexOf(4, 2) );
+let date3 = new Date(1998, 11, 20, 7);
 
 
-// let courses = [
-//     {no:1, naam:'Love'},
-//     {no:2, naam:'Rahul'}
-// ];
+date3.setFullYear(1947);
 
-//console.log(courses);
+console.log(date3);
 
-//console.log( courses.includes( {no:1, naam:'Love'} ) );
+let numbers = [1,4,5,7];
 
-// let course =  courses.find(course => course.naam === 'Kilvish');
+console.log(numbers);
 
-// function(course) {
-//     return course.naam === 'Love';
-// }
+//end -> push
+//beginning -> unshift
 
-// console.log(course);
+//middle -> splice
 
-// let numbers = [1,2,3,4,5,6,7];
+//Searching
+console.log(numbers);
 
-// //end
-// numbers.pop();
-// //beginning
-// numbers.shift();
-// //middle
-// numbers.splice(2, 1);
+console.log(numbers.indexOf(9));
 
-// // console.log(numbers);
+//we want to check if a number exist in an array
+if(numbers.indexOf(4) != -1) 
+    console.log("present");
 
-// let numbers = [1,2,3,4,5];
-// let numbers2 = numbers;
+console.log(numbers.includes(7));
 
-// //numbers = [];
-// //numbers.length = 0;
-// numbers.splice(0,numbers.length);
-
-// console.log(numbers);
-// console.log(numbers2);
-
-// let first = [1,2,3];
-// let second = [4,5,6];
-
-// let combined = first.concat(second);
-// console.log(combined);
-
-// let marks = [10,20,30,40,50,60,70,80];
-// let sliced = marks.slice();
-// //let sliced = marks.slice(2);
-// // let sliced = marks.slice(2,6);
-// console.log(sliced);
+console.log(numbers.indexOf(4, 2) );
 
 
+let courses = [
+    {no:1, naam:'Love'},
+    {no:2, naam:'Rahul'}
+];
 
-// let first = [1,2,3];
-// let second = [4,5,6];
+console.log(courses);
 
-// let combined = [...first,'a', false, ...second ,'b', true];
-// console.log(combined);
+console.log( courses.includes( {no:1, naam:'Love'} ) );
 
-// //copy kaise create karu
-// let another = [...combined];
+let course =  courses.find(course => course.naam === 'Kilvish');
 
-// let arr = [10,20,30,40,50];
+function(course) {
+    return course.naam === 'Love';
+}
 
-// // for(let value of arr) {
-// //     console.log(value);
-// // }
+console.log(course);
 
-// arr.forEach(number=> console.log(number));
+let numbers = [1,2,3,4,5,6,7];
 
-
-
-// let numbers = [10,20,30,40,50];
-// const joined = numbers.join(',');
-
-// console.log(joined);
-
-// let message = 'This is my first message';
-// let parts = message.split(' ');
-
-// console.log(parts);
-
-// let joined = parts.join('_');
-// console.log(joined);
-
-
-// let numbers = [5,10,4,40];
-
-// numbers.sort();
+//end
+numbers.pop();
+//beginning
+numbers.shift();
+//middle
+numbers.splice(2, 1);
 
 // console.log(numbers);
 
-// numbers.reverse();
-// console.log(numbers);
+let numbers = [1,2,3,4,5];
+let numbers2 = numbers;
+
+//numbers = [];
+//numbers.length = 0;
+numbers.splice(0,numbers.length);
+
+console.log(numbers);
+console.log(numbers2);
+
+let first = [1,2,3];
+let second = [4,5,6];
+
+let combined = first.concat(second);
+console.log(combined);
+
+let marks = [10,20,30,40,50,60,70,80];
+let sliced = marks.slice();
+//let sliced = marks.slice(2);
+// let sliced = marks.slice(2,6);
+console.log(sliced);
 
 
-// let numbers = [1,2,-1,-4];
 
-// let filtered =  numbers.filter(value => value >= 0);
+let first = [1,2,3];
+let second = [4,5,6];
 
-// console.log(filtered);
+let combined = [...first,'a', false, ...second ,'b', true];
+console.log(combined);
+
+//copy kaise create karu
+let another = [...combined];
+
+let arr = [10,20,30,40,50];
+
+for(let value of arr) {
+    console.log(value);
+}
+
+arr.forEach(number=> console.log(number));
 
 
-// let numbers = [7,8,9,10];
-// console.log(numbers);
+
+let numbers = [10,20,30,40,50];
+const joined = numbers.join(',');
+
+console.log(joined);
+
+let message = 'This is my first message';
+let parts = message.split(' ');
+
+console.log(parts);
+
+let joined = parts.join('_');
+console.log(joined);
+
+
+let numbers = [5,10,4,40];
+
+numbers.sort();
+
+console.log(numbers);
+
+numbers.reverse();
+console.log(numbers);
+
+
+let numbers = [1,2,-1,-4];
+
+let filtered =  numbers.filter(value => value >= 0);
+
+console.log(filtered);
+
+
+let numbers = [7,8,9,10];
+console.log(numbers);
 
 // let items = numbers.map(value => 'student_no' + value);
 
